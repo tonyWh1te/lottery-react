@@ -1,0 +1,35 @@
+.hasGift {
+  @apply flex-auto pt-6;
+}
+
+.inner {
+  @apply mx-auto max-w-[900px] text-center;
+}
+
+.greeting {
+  @apply mb-4 inline-block text-2xl font-bold md:text-3xl;
+}
+
+.text {
+  @apply mb-4 text-base md:text-lg;
+}
+
+.text span {
+  @apply font-bold;
+}
+
+.stars {
+  @apply mb-4 flex items-center justify-center gap-x-1;
+}
+
+.imgWapper {
+  @apply mx-auto mb-6 flex max-w-[450px] items-center justify-center;
+}
+
+.img {
+  @apply w-full object-contain;
+}
+
+.button {
+  @apply btn-primary mx-auto flex items-center justify-center;
+}

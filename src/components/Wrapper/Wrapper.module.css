@@ -1,0 +1,3 @@
+.wrapper {
+  @apply relative flex min-h-screen w-full flex-col items-center justify-center bg-main-black wrapper-shadow;
+}

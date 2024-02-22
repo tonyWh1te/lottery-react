@@ -1,0 +1,15 @@
+.inner {
+  @apply mx-auto max-w-[300px] text-center;
+}
+
+.title {
+  @apply mb-6 text-xl font-semibold;
+}
+
+.textWrapper {
+  @apply mb-6 text-lg;
+}
+
+.button {
+  @apply btn-primary mx-auto;
+}

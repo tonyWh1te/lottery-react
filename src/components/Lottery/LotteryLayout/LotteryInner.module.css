@@ -1,0 +1,27 @@
+.lottery {
+  @apply flex-auto py-6;
+}
+
+.title {
+  @apply mb-6 text-center text-xl font-semibold;
+}
+
+.gifts {
+  @apply grid h-full w-full grid-cols-[repeat(3,1fr)] gap-2;
+}
+
+.gift {
+  @apply flex min-h-[60px] flex-col items-center justify-center rounded-lg bg-[rgba(255,_255,_255,_0.05)] px-4 pt-4;
+}
+
+.gift span {
+  @apply mt-4 block;
+}
+
+.img {
+  @apply object-contain;
+}
+
+.active {
+  @apply animate-[scaleAndFade_0.5s_forwards];
+}
