@@ -72,7 +72,7 @@ const HasGift = ({ id }) => {
               </div>
               <a
                 className={styles.button}
-                href="https://t.me/avg95"
+                href="https://wa.me/79299284333"
                 target="_blank"
               >
                 Забрать подарок
